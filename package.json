@@ -1,6 +1,6 @@
 {
   "name": "web-serial-gsm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "GSM Modem package for use with the Web Serial API",
   "main": "lib/Modem.js",
   "types": "lib/Modem.d.ts",
@@ -13,8 +13,8 @@
     "build": "tsc",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags"
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [],
   "author": "Enclude",
