@@ -1,9 +1,9 @@
 {
   "name": "web-serial-gsm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "GSM Modem package for use with the Web Serial API",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/Modem.js",
+  "types": "lib/Modem.d.ts",
   "files": [
     "lib/***/*"
   ],
