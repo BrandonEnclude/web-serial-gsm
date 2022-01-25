@@ -1,11 +1,11 @@
 {
   "name": "web-serial-gsm",
-  "version": "0.0.6",
+  "version": "0.0.4",
   "description": "GSM Modem package for use with the Web Serial API",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
-    "lib"
+    "lib/**/*"
   ],
   "scripts": {
     "test": "jest --config jestconfig.json",
